@@ -12,3 +12,5 @@ env/
 *.log
 *.out
 *.toc
+*.synctex.gz
+Analyse nutritionnelle USDA · Streamlit.pdf
