@@ -14,6 +14,10 @@
 \usepackage{float}
 \usepackage{enumitem}
 
+% Puces standard de babel puis tiret court pour les listes itemize
+\frenchbsetup{StandardItemLabels=true}
+\setlist[itemize,1]{label=-, leftmargin=1.5em, labelsep=0.5em}
+
 \geometry{margin=2.5cm}
 \hypersetup{
     colorlinks=true,
@@ -136,14 +140,14 @@ Les associations les plus fortes observées sont présentées dans le tableau~\r
 \toprule
 Paire de variables & Corrélation \\
 \midrule
-Vit\_A\_RAE -- Retinol & 0,989 \\
-Folate\_Tot -- Folate\_DFE & 0,983 \\
-Folic\_Acid -- Folate\_DFE & 0,952 \\
-Water -- Energ\_Kcal & -0,901 \\
-Lipid\_Tot -- FA\_Mono & 0,885 \\
-Folate\_Tot -- Folic\_Acid & 0,880 \\
-Vit\_A\_IU -- Vit\_A\_RAE & 0,845 \\
-Ash -- Sodium & 0,826 \\
+Vit\_A\_RAE - Retinol & 0,989 \\
+Folate\_Tot - Folate\_DFE & 0,983 \\
+Folic\_Acid - Folate\_DFE & 0,952 \\
+Water - Energ\_Kcal & -0,901 \\
+Lipid\_Tot - FA\_Mono & 0,885 \\
+Folate\_Tot - Folic\_Acid & 0,880 \\
+Vit\_A\_IU - Vit\_A\_RAE & 0,845 \\
+Ash - Sodium & 0,826 \\
 \bottomrule
 \end{tabular}
 \end{table}
@@ -188,7 +192,7 @@ PC2 & 11,52\% & 32,04\% \\
 
 \subsection{Interprétation des profils}
 
-Dans le cercle des corrélations, les variables proches sont positivement associées. Les variables orientées dans des directions opposées sont associées négativement. Une flèche longue et éloignée de l'origine contribue davantage à la construction du plan PC1--PC2.
+Dans le cercle des corrélations, les variables proches sont positivement associées. Les variables orientées dans des directions opposées sont associées négativement. Une flèche longue et éloignée de l'origine contribue davantage à la construction du plan PC1-PC2.
 
 Dans la projection des produits, deux produits proches dans le plan factoriel ont des profils nutritionnels comparables selon les variables retenues. Les produits situés aux extrêmes des axes correspondent à des profils plus atypiques. Ces extrêmes ne sont pas nécessairement des erreurs : ils peuvent représenter des produits particulièrement riches en énergie, en lipides, en minéraux ou en vitamines.
 
