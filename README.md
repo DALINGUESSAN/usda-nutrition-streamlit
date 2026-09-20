@@ -6,6 +6,10 @@ Application Streamlit pour analyser la composition nutritionnelle des produits d
 
 [Ouvrir l'application Streamlit](https://usda-nutrition-app-9awedg4cm2qbog5la5j8ci.streamlit.app/)
 
+## Rapport avec visualisations intégrées
+
+[Télécharger le rapport PDF avec les graphiques](rapport_usda_visuel.pdf) · [Voir le source LaTeX](rapport_usda_visuel.tex)
+
 ## Objectifs
 
 - Décrire les caractéristiques nutritionnelles des produits.
