@@ -10,6 +10,11 @@ Application Streamlit pour analyser la composition nutritionnelle des produits d
 
 [Télécharger le rapport PDF avec les graphiques](rapport_usda_visuel.pdf) · [Voir le source LaTeX](rapport_usda_visuel.tex)
 
+## Notebooks ACP
+
+- [CNP_USD.ipynb](CNP_USD.ipynb) : ACP complète avec 36 variables nutritionnelles.
+- [ACP_USDA_comparaison.ipynb](ACP_USDA_comparaison.ipynb) : version guidée avec 8 nutriments principaux pour comparer l'effet du choix des variables.
+
 ## Objectifs
 
 - Décrire les caractéristiques nutritionnelles des produits.
